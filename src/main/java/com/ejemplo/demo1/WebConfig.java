@@ -15,7 +15,7 @@ public class WebConfig {
             @Override
             public void addCorsMappings(@NonNull CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("http://localhost:5173") // o el puerto de tu frontend
+                        .allowedOrigins("https://681b8a083114250008319cce--soft-torrone-90dd2d.netlify.app/") // o el puerto de tu frontend
                         .allowedMethods("GET", "POST", "PUT", "DELETE")
                         .allowedHeaders("*");
             }
