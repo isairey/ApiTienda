@@ -11,7 +11,7 @@ import java.util.HashMap;
 
 
 import java.util.List;
-@CrossOrigin(origins = "https://681b8a083114250008319cce--soft-torrone-90dd2d.netlify.app/") 
+@CrossOrigin(origins = "https://681b8a083114250008319cce--soft-torrone-90dd2d.netlify.app") 
 
 
 @RestController
