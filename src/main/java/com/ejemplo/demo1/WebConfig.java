@@ -8,18 +8,20 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
 public class WebConfig {
-   
    @Bean
-    public WebMvcConfigurer corsConfigurer() {
-        return new WebMvcConfigurer() {
-            @Override
-            public void addCorsMappings(@NonNull CorsRegistry registry) {
-                registry.addMapping("/**")
-                        .allowedOrigins( "http://localhost:5173", 
-    "https://681b8a083114250008319cce--soft-torrone-90dd2d.netlify.app") // o el puerto de tu frontend
-                        .allowedMethods("GET", "POST", "PUT", "DELETE")
-                        .allowedHeaders("*");
-            }
-        };
-    }
+   public WebMvcConfigurer corsConfigurer() {
+       return new WebMvcConfigurer() {
+           @Override
+           public void addCorsMappings(@NonNull CorsRegistry registry) {
+               registry.addMapping("/**")
+                       .allowedOrigins(
+                           "http://localhost:5173",
+                           "https://681b8a083114250008319cce--soft-torrone-90dd2d.netlify.app"
+                       )
+                       .allowedMethods("GET", "POST", "PUT", "DELETE")
+                       .allowedHeaders("*");
+           }
+       };
+   }
 }
+
