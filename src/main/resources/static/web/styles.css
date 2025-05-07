@@ -1,0 +1,27 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#alumnos-container {
+    margin-top: 20px;
+}
+
+#alumnos-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#alumnos-list li {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
