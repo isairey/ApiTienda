@@ -14,12 +14,7 @@ public class WebConfig {
            @Override
            public void addCorsMappings(@NonNull CorsRegistry registry) {
                registry.addMapping("/**")
-                       .allowedOrigins(
-                            "http://localhost:5173",
-                            "https://681b8a083114250008319cce--soft-torrone-90dd2d.netlify.app",
-                            "https://soft-torrone-90dd2d.netlify.app") 
- // <-- agrega esta línea
-                        
+                       .allowedOrigins("https://soft-torrone-90dd2d.netlify.app") 
                        .allowedMethods("GET", "POST", "PUT", "DELETE")
                        .allowedHeaders("*");
            }
