@@ -17,7 +17,8 @@ public class WebConfig {
                        .allowedOrigins(
                             "http://localhost:5173",
                             "https://681b8a083114250008319cce--soft-torrone-90dd2d.netlify.app",
-                            "https://main--soft-torrone-90dd2d.netlify.app" // <-- agrega esta línea
+                            "https://soft-torrone-90dd2d.netlify.app") 
+ // <-- agrega esta línea
                         )
                        .allowedMethods("GET", "POST", "PUT", "DELETE")
                        .allowedHeaders("*");
