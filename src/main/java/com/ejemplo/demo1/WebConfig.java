@@ -19,7 +19,7 @@ public class WebConfig {
                             "https://681b8a083114250008319cce--soft-torrone-90dd2d.netlify.app",
                             "https://soft-torrone-90dd2d.netlify.app") 
  // <-- agrega esta línea
-                        )
+                        
                        .allowedMethods("GET", "POST", "PUT", "DELETE")
                        .allowedHeaders("*");
            }
