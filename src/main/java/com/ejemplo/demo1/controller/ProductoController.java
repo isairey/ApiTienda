@@ -14,6 +14,7 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.nio.file.*;
 import java.util.List;
+@CrossOrigin(origins = "https://soft-torrone-90dd2d.netlify.app") 
 
 @RestController
 @RequestMapping("/producto")
